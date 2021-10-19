@@ -115,6 +115,57 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+/* footer di sinistra */
+#foot_left {
+    display: flex;
+    align-items: center;
+}
+
+/* immagine brano  */
+#foot_left img {
+    height: 35px;
+    margin: 0 10px;
+}
+
+/* info brano */
+#ft_text {
+    width: 50px;
+}
+
+#ft_text .album {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#ft_text .name{
+    font-size: 10px;
+    font-weight: bold;
+    color: #878787;
+}
+
+/* bottoni cuore e cartella */
+#ft_add {
+    color: #646464;
+    margin-left: 15px;
+}
+
+#ft_add .fa-heart{
+    display: block;
+    font-size: 18px;
+}
+
+#ft_add .fa-folder{
+    display: block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
 /* ******MEDIA QUERY****** */
 
 /* proprietà responsive per schermo >= 576px in larghezza */
@@ -154,7 +205,7 @@ footer {
 .debug #foot_left, .debug #foot_right {
     width: 150px;
     height: 100%;
-    background-color: yellow;
+    background-color: red;
 }
 
 .debug #foot_main {
