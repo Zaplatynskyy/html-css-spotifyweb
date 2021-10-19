@@ -96,10 +96,11 @@ header {
     overflow: hidden;
 }
 
-.main_content {
+#main_content {
     width: calc(100% - 50px);
+    height: calc(100vh - 180px);
     margin-top: 90px;
-    /* overflow: scroll; */
+    overflow: auto;
 }
 
 /* ******FOOTER****** */
@@ -113,17 +114,17 @@ footer {
 
 /* proprietà responsive per schermo >= 576px in larghezza */
 @media screen and (min-width: 576px) {
-    #header_left {
+
+    header {
+        width: calc(100% - 180px);
+    }
+
+    #main_left {
         width: 180px;
     }
 
-    #header_top {
+    #main_content {
         width: calc(100% - 180px);
-    }
-
-    main {
-        width: calc(100% - 180px);
-        margin-left: 180px;
     }
 }
 
@@ -137,8 +138,7 @@ footer {
     background-color: greenyellow;
 } */
 
-.debug .main_content {
-    height: calc(100vh - 180px);
+.debug #main_content {
     background-color: #141922;
 }
 
