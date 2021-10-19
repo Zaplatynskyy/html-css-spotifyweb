@@ -46,7 +46,12 @@ ul {
     align-items: center;
 }
 
-.header_nav .top_list img {
+.header_nav li {
+    width: 30px;
+    margin: 5px auto;
+}
+
+.header_nav img {
     filter: invert(0.175);
 }
 
@@ -58,11 +63,20 @@ ul {
     width: 35px;
 }
 
-.header_nav li {
-    width: 30px;
-    margin: 5px auto;
+/* proprietà icone inferiori */
+.header_nav .bottom_list #btn_download {
+    width: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
+.header_nav .bottom_list #btn_profile {
+    width: 30px;
+    height: 30px;
+    background-color: #808080;
+    border-radius: 100%;
+    overflow: hidden;
+}
 
 
 /* header top */
