@@ -31,9 +31,7 @@ header {
     width: calc(100% - 50px);
     height: 90px;
     background-color: #080b12;
-    display: flex;
-    justify-content: right;
-    align-items: center;
+    text-align: right;
     position: fixed;
     top: 0;
     right: 0;
@@ -44,7 +42,10 @@ header {
     background: none;
     text-transform: uppercase;
     border: 1px solid white;
-    padding: 10px 30px;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin: 21px 10px;
+    cursor: pointer;
 }
 
 /* ******MAIN****** */
@@ -71,6 +72,7 @@ header {
 
 .main_nav img {
     filter: invert(0.175);
+    cursor: pointer;
 }
 
 .main_nav li.logo img {
