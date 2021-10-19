@@ -20,7 +20,7 @@
 
 /* header top */
 #header_top {
-    width: calc(100% - 60px);
+    width: calc(100% - 50px);
     height: 80px;
     position: fixed;
     top: 0;
@@ -30,7 +30,7 @@
 
 /* header left */
 #header_left {
-    width: 60px;
+    width: 50px;
     height: calc(100vh - 80px);
     position: fixed;
     top: 0;
@@ -41,9 +41,9 @@
 /* ******MAIN****** */
 
 main {
-    width: calc(100% - 60px);
+    width: calc(100% - 50px);
     margin-top: 80px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 /* ******FOOTER****** */
@@ -58,6 +58,21 @@ footer {
 }
 /* ******MEDIA QUERY****** */
 
+/* proprietà responsive per schermo >= 576px in larghezza */
+@media screen and (min-width: 576px) {
+    #header_left {
+        width: 180px;
+    }
+
+    #header_top {
+        width: calc(100% - 180px);
+    }
+
+    main {
+        width: calc(100% - 180px);
+        margin-left: 180px;
+    }
+}
 
 /* ******DEBUG****** */
 
