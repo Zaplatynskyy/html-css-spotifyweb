@@ -101,6 +101,7 @@ header {
 #main_content {
     width: calc(100% - 50px);
     height: calc(100vh - 180px);
+    background-color: #141922;
     margin-top: 90px;
     overflow: auto;
 }
@@ -111,6 +112,8 @@ footer {
     width: 100%;
     height: 90px;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
 }
 /* ******MEDIA QUERY****** */
 
@@ -140,10 +143,34 @@ footer {
     background-color: greenyellow;
 } */
 
-.debug #main_content {
+/* .debug #main_content {
     background-color: #141922;
-}
+} */
 
 /* .debug footer {
     background-color: blue;
 } */
+
+.debug #foot_left, .debug #foot_right {
+    width: 150px;
+    height: 100%;
+    background-color: yellow;
+}
+
+.debug #foot_main {
+    width: 200px;
+    height: 100%;
+    background-color: green;
+}
+
+.debug #ft_top {
+    width: 200px;
+    height: 50%;
+    background-color: violet;
+}
+
+.debug #ft_bottom {
+    width: 100%;
+    height: 50%;
+    background-color: tomato;
+}
