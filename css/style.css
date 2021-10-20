@@ -25,6 +25,10 @@ ul {
     float: left;
 }
 
+.display {
+    display: none;
+}
+
 /* ******HEADER****** */
 
 header {
@@ -59,9 +63,13 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 5px 0;
 }
 
 .top_list #img_logo_l {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 25px;
     display: none;
 }
 
@@ -73,17 +81,54 @@ header {
     width: 30px;
 }
 
-.top_list li {
-    width: 25px;
+/* proprietà lista home cerca e libreria */
+.top_list .home li {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
 }
 
 .top_list li img {
+    width: 25px;
     filter: invert(0.175);
     cursor: pointer;
 }
 
-.top_list span {
-    display: none;
+.top_list .home span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #d2d2d2;
+    white-space: nowrap;
+    margin: 0 8px;
+}
+
+/* proprietà elenco delle playlist */
+.top_list h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.btn_playlist i {
+    color: black;
+    background-color: #d2d2d2;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.btn_playlist span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #d2d2d2;
+}
+
+.top_list .playlist li {
+    font-size: 12px;
+    font-weight: bold;
+    color: #d2d2d2;
+    white-space: nowrap;
+    margin: 15px 0;
 }
 
 /* proprietà icone inferiori */
@@ -248,18 +293,12 @@ footer {
 
     #main_left {
         width: 220px;
-        padding: 0 15px;
+        padding: 5px 15px;
         align-items: flex-start;
     }
 
-    .top_list li {
-        margin: 5px 0;
-    }
-
-    .top_list .logo {
-        width: 150px;
-        margin-top: 20px;
-        margin-bottom: 25px;
+    .display {
+        display: block;
     }
 
     .top_list #img_logo_s {
@@ -268,10 +307,6 @@ footer {
 
     .top_list #img_logo_l {
         display: block;
-    }
-
-    .top_list span {
-        display: inline;
     }
 
     #main_content {
