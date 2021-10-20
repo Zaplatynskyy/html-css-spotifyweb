@@ -108,7 +108,7 @@ header {
 .top_list .home span {
     font-size: 12px;
     font-weight: bold;
-    color: #d2d2d2;
+    color: #7d7f84;
     white-space: nowrap;
     margin: 0 8px;
 }
@@ -122,7 +122,7 @@ header {
 
 .btn_playlist i {
     color: black;
-    background-color: #d2d2d2;
+    background-color: #7d7f84;
     padding: 8px;
     font-size: 20px;
 }
@@ -130,13 +130,13 @@ header {
 .btn_playlist span {
     font-size: 14px;
     font-weight: bold;
-    color: #d2d2d2;
+    color: #7d7f84;
 }
 
 .top_list .playlist li {
     font-size: 12px;
     font-weight: bold;
-    color: #d2d2d2;
+    color: #7d7f84;
     white-space: nowrap;
     margin: 15px 0;
 }
@@ -161,7 +161,7 @@ header {
 .bottom_list #btn_download span {
     font-size: 12px;
     font-weight: bold;
-    color: #d2d2d2;
+    color: #7d7f84;
     white-space: nowrap;
     margin-left: 10px;
 }
@@ -186,7 +186,28 @@ header {
     height: calc(100vh - 175px);
     background-color: #141922;
     margin-top: 90px;
+    padding: 15px;
     overflow: auto;
+}
+
+#main_content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main_content li {
+    color: #7d7f84;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 20px;
+}
+
+#main_content h2 {
+    font-size: 27px;
+
 }
 
 /* ******FOOTER****** */
@@ -349,7 +370,7 @@ footer {
     }
 
     .bottom_list #btn_profile {
-        border-top: 1px solid #d2d2d2;
+        border-top: 1px solid #7d7f84;
         padding-top: 10px;
     }
 
