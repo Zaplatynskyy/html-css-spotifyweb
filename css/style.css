@@ -9,6 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: white;
+    font-weight: bold;
     background-color: #141922;
 }
 
@@ -107,7 +108,6 @@ header {
 
 .top_list .home span {
     font-size: 12px;
-    font-weight: bold;
     color: #7d7f84;
     white-space: nowrap;
     margin: 0 8px;
@@ -129,13 +129,11 @@ header {
 
 .btn_playlist span {
     font-size: 14px;
-    font-weight: bold;
     color: #7d7f84;
 }
 
 .top_list .playlist li {
     font-size: 12px;
-    font-weight: bold;
     color: #7d7f84;
     white-space: nowrap;
     margin: 15px 0;
@@ -160,7 +158,6 @@ header {
 
 .bottom_list #btn_download span {
     font-size: 12px;
-    font-weight: bold;
     color: #7d7f84;
     white-space: nowrap;
     margin-left: 10px;
@@ -176,7 +173,6 @@ header {
 
 .bottom_list #btn_profile span {
     font-size: 14px;
-    font-weight: bold;
     margin-left: 10px;
 }
 
@@ -199,15 +195,22 @@ header {
 #main_content li {
     color: #7d7f84;
     font-size: 13px;
-    font-weight: bold;
     text-transform: uppercase;
     white-space: nowrap;
     margin: 20px;
 }
 
-#main_content h2 {
-    font-size: 27px;
+#main_content .title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
+#main_content .title h2 {
+    font-size: 27px;
+}
+
+#main_content .title .subtitle {
+    margin: 15px 0;
 }
 
 #main_content .card_song {
@@ -219,6 +222,26 @@ header {
 #main_content .card_song img {
     width: 100%;
 }
+
+#main_content .text_song {
+    text-align: center;
+}
+
+#main_content .card_song .name_song {
+    margin: 5px;
+    font-size: 18px;
+}
+
+#main_content .card_song .who_song,
+#main_content .title .subtitle {
+    color: #7d7f84;
+    font-size: 14px;
+}
+
+#popular img {
+    border-radius: 100%;
+}
+
 /* ******FOOTER****** */
 
 footer {
@@ -261,12 +284,10 @@ footer {
 
 #ft_text .album {
     font-size: 12px;
-    font-weight: bold;
 }
 
 #ft_text .name{
     font-size: 10px;
-    font-weight: bold;
     color: #878787;
 }
 
@@ -321,7 +342,6 @@ footer {
 
 #ft_bottom span {
     font-size: 12px;
-    font-weight: bold;
 }
 
 #ft_bottom .play_bar {
@@ -426,8 +446,8 @@ footer {
     background-color: tomato;
 } */
 
-.debug #recently .card_song {
+/* .debug #recently .card_song {
     height: 300px;
     background-color: rgb(163, 54, 54);
     
-}
+} */
