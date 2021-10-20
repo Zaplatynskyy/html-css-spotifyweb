@@ -458,6 +458,14 @@ footer {
 /* proprietà responsive per schermo >= 1400px in larghezza */
 @media screen and (min-width: 1400px) {
 
+    #main_content .card_song {
+        width: calc(100% / 6 - 40px);
+    }
+
+    #main_content .card_song {
+        margin-right: 40px;
+    }
+
     #main_content .text_song .name_song {
         font-size: 15px;
     }
