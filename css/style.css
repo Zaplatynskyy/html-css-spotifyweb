@@ -9,6 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: white;
+    background-color: #141922;
 }
 
 ul {
@@ -34,11 +35,12 @@ ul {
 header {
     width: calc(100% - 50px);
     height: 90px;
-    background-color: #080b12;
+    background-color: rgba(0,0,0,0.5);
     text-align: right;
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 2;
 }
 
 #btn_upgrade {
@@ -59,11 +61,19 @@ header {
     width: 50px;
     height: calc(100vh - 85px);
     background-color: #000000;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0;
+}
+
+.top_list {
+    min-height: 350px;
+}
+
+.top_list #img_logo_s {
+    margin-top: 10px;
 }
 
 .top_list #img_logo_l {
@@ -132,13 +142,17 @@ header {
 }
 
 /* proprietà icone inferiori */
+.bottom_list {
+    width: 100%;
+    background-color: #000;
+}
+
 .bottom_list li {
     margin: 5px auto;
 }
 
 .bottom_list #btn_download {
     width: 15px;
-    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -165,6 +179,10 @@ footer {
     height: 85px;
     background-color: #282828;
     display: flex;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 #foot_left, #foot_right {
@@ -293,7 +311,7 @@ footer {
 
     #main_left {
         width: 220px;
-        padding: 5px 15px;
+        padding: 0 15px;
         align-items: flex-start;
     }
 
@@ -307,6 +325,10 @@ footer {
 
     .top_list #img_logo_l {
         display: block;
+    }
+
+    .bottom_list li {
+        margin: 5px 0;
     }
 
     #main_content {
