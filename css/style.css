@@ -203,6 +203,7 @@ header {
 }
 
 .bottom_list #btn_download a {
+    margin: 0 auto;
     display: flex;
     align-items: center;
 }
@@ -551,6 +552,10 @@ footer {
     }
 
     .bottom_list #btn_profile img {
+        margin: 0;
+    }
+
+    .bottom_list #btn_download a {
         margin: 0;
     }
 
