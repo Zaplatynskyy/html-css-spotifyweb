@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="debug">
+<body>
 
     <header>
         <!-- bottone header -->
@@ -19,12 +19,11 @@
     </header>
 
     <main>
-
         <div class="container clearfix">
+
             <div id="main_left" class="left">
                 <!-- lista icone superiori -->
                 <div class="top_list">
-
                     <!-- contenitore logo -->
                     <div class="logo">
                         <img src="img/logo-small.svg" id="img_logo_s" alt="">
@@ -49,10 +48,12 @@
 
                     <!-- lista delle playlist -->
                     <h5 class="display">Playlist</h5>
+
                     <div class="btn_playlist display">
                         <i class="fas fa-plus"></i>
                         <span>Crea Playlist</span>
                     </div>
+
                     <ul class="playlist display">
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -62,7 +63,6 @@
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
                     </ul>
-
                 </div>
     
                 <!-- lista icone inferiori -->
@@ -81,6 +81,7 @@
     
             <div id="main_content" class="left">
 
+                <!-- nav_bar della main_content superiore -->
                 <ul>
                     <li>In evidenza</li>
                     <li>Podcast</li>
@@ -90,79 +91,157 @@
                     <li>Scopri</li>
                 </ul>
 
+                <!-- sezione brani riprodotti di recente -->
                 <section id="recently">
+
+                    <!-- titolo sezione -->
                     <div class="title">
                         <h2>Recently played</h2>
                     </div>
-                    <div class="content_flex">
 
-                        <div class=" card_song">
-                            <img src="img/metal_lifting.jpg" alt="">
+                    <div class="content_flex">
+                        <!-- sezione card del brano/album -->
+                        <div class="card_song">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/metal_lifting.jpg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">Heavy Metal</div>
                                 <div class="who_song">Subtitle</div>
                             </div>
                         </div>
-    
+                        
+                        <!-- sezione card del brano/album -->
                         <div class=" card_song">
-                            <img src="img/stranger.jpeg" alt="">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/stranger.jpeg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">Stranger Things, Vol. 1(a Netflix Original Series Soundtrack</div>
                                 <div class="who_song">Kyle Dixon & Michael Stein</div>
                             </div>
                         </div>
-    
+                        
+                        <!-- sezione card del brano/album -->
                         <div class=" card_song">
-                            <img src="img/aquietplace.jpeg" alt="">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/aquietplace.jpeg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">A quiet place</div>
                                 <div class="who_song">Subtitle</div>
                             </div>
                         </div>
-    
+                        
+                        <!-- sezione card del brano/album -->
                         <div class=" card_song">
-                            <img src="img/split.jpeg" alt="">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/split.jpeg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">Split</div>
                                 <div class="who_song">Subtitle</div>
                             </div>
                         </div>
-    
+                        
+                        <!-- sezione card del brano/album -->
                         <div class=" card_song">
-                            <img src="img/cure.jpeg" alt="">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/cure.jpeg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">A cure for wellness</div>
                                 <div class="who_song">Subtitle</div>
                             </div>
                         </div>
-    
+                        
+                        <!-- sezione card del brano/album -->
                         <div class=" card_song">
-                            <img src="img/sinister.jpeg" alt="">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/sinister.jpeg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">Sinister</div>
                                 <div class="who_song">Subtitle</div>
                             </div>
                         </div>
-
                     </div>
+
                 </section>
 
+                <!-- sezione brani riprodotti di recente -->
                 <section id="created" class="clearfix">
+
+                    <!-- titolo sezione -->
                     <div class="title">
                         <h2>Creato per John Doe</h2>
                         <div class="subtitle">Più ascolti, più accurati saranno i suggerimenti</div>
                     </div>
                     
                     <div class="content_flex">
+                        <!-- sezione card del brano/album -->
                         <div class=" card_song">
-                            <img src="img/radar.jpeg" alt="">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/radar.jpeg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">Release Radar</div>
                             </div>
                         </div>
-    
+                        
+                        <!-- sezione card del brano/album -->
                         <div class=" card_song">
-                            <img src="img/mixdaily.jpeg" alt="">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/mixdaily.jpeg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">Daily Mix 1</div>
                             </div>
@@ -171,33 +250,53 @@
 
                 </section>
 
+                <!-- sezione brani riprodotti di recente -->
                 <section id="popular" class="clearfix">
+
+                    <!-- titolo sezione -->
                     <div class="title">
                         <h2>Artisti più popolari</h2>
                         <div class="subtitle">Più ascolti, più accurati saranno i suggerimenti</div>
                     </div>
 
                     <div class="content_flex">
-
+                        <!-- sezione card del brano/album -->
                         <div class=" card_song">
-                            <img src="img/youg.jpeg" alt="">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/youg.jpeg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">Youg</div>
                             </div>
                         </div>
-    
+                        
+                        <!-- sezione card del brano/album -->
                         <div class=" card_song">
-                            <img src="img/einaudi.jpeg" alt="">
+                            <!-- contenitore img con layover -->
+                            <div class="cont_img">
+                                <div class="layover_img">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <img src="img/einaudi.jpeg" alt="">
+                            </div>
+
+                            <!-- testo della card con nome e autore -->
                             <div class="text_song">
                                 <div class="name_song">Enaudi</div>
                             </div>
                         </div>
-
                     </div>
+
                 </section>
             </div>
+
         </div>
-        
     </main>
 
     <footer>
