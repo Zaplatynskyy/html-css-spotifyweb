@@ -132,6 +132,12 @@ header {
     color: #7d7f84;
 }
 
+.top_list .playlist {
+    height: 50%;
+    overflow: auto;
+    
+}
+
 .top_list .playlist li {
     font-size: 12px;
     color: #7d7f84;
@@ -317,7 +323,7 @@ footer {
 
 /* footer centrale top */
 #ft_top {
-    width: 220px;
+    width: 200px;
     height: 40%;
 }
 
@@ -327,12 +333,8 @@ footer {
     align-items: center;
 }
 
-#ft_top i {
-    font-size: 18px;
-}
-
 #ft_top i.fa-play-circle {
-    font-size: 34px;
+    font-size: 30px;
     margin: 0 10px;
 }
 
