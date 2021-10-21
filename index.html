@@ -22,45 +22,47 @@
         <div class="container clearfix">
 
             <div id="main_left" class="left">
-                <!-- lista icone superiori -->
-                <div class="top_list">
+                <!-- lista icone superiori (main_left_top) -->
+                <div class="ml_top">
                     <!-- contenitore logo -->
                     <div class="logo">
                         <img src="img/logo-small.svg" id="img_logo_s" alt="">
                         <img src="img/logo.svg" id="img_logo_l" alt="">
                     </div>
 
-                    <!-- lista home cerca e libreria -->
-                    <ul class="nav_main">
+                    <!-- lista nav principale (main_left_top_nav) -->
+                    <ul class="mlt_nav">
                         <li>
-                            <div id="bl_active"></div>
+                            <div id="bl_active"></div>  <!-- border left active -->
                             <a href="#" class="hv_wt">
-                                <img src="img/home.svg" alt="">
+                                <img src="img/home.svg" alt="icon home">
                                 <span class="display">Home</span>
                             </a>
                         </li>
                         <li>
                             <a href="#" class="hv_wt">
-                                <img src="img/search.svg" alt="">
+                                <img src="img/search.svg" alt="icon search">
                                 <span class="display">Cerca</span>
                             </a>
                         </li>
                         <li>
                             <a href="#" class="hv_wt">
-                                <img src="img/libreria.svg" alt="">
+                                <img src="img/libreria.svg" alt="icon libreria">
                                 <span class="display">La tua libreria</span>
                             </a>
                         </li>
                     </ul>
 
-                    <!-- lista delle playlist -->
+                    <!-- sezione playlist -->
                     <h5 class="display">Playlist</h5>
 
+                    <!-- bottone add new playlist -->
                     <div class="btn_playlist display">
                         <i class="fas fa-plus"></i>
                         <span id="new_pl">Crea Playlist</span>
                     </div>
 
+                    <!-- lista delle playlist -->
                     <ul class="playlist display">
                         <li>
                             <a href="#" class="hv_wt">Nome Playlist</a>
@@ -87,28 +89,31 @@
                 </div>
     
                 <!-- lista icone inferiori -->
-                <ul class="bottom_list">
+                <ul class="ml_bottom">
+                    <!-- bottone download -->
                     <li id="btn_download">
                         <a href="#" class="hv_wt">
-                            <img src="img/download.svg" alt="">
+                            <img src="img/download.svg" alt="icon download">
                             <span class="display">Installa app</span>
                         </a>
                     </li>
                     
+                    <!-- bottone profilo -->
                     <li id="btn_profile">
-                        <img src="img/profile.svg" alt="">
+                        <img src="img/profile.svg" alt="icon profile">
                         <span class="display">John Doe</span>
                     </li>
                 </ul>
             </div>
-    
+            
+            <!-- contenitore main principale della pagina -->
             <div id="main_content" class="left">
 
                 <!-- nav_bar della main_content superiore -->
                 <ul>
                     <li>
                         <a href="#" class="hv_wt">In evidenza</a>
-                        <div id="bb_active"></div>
+                        <div id="bb_active"></div>  <!-- border bottom active -->
                     </li>
                     <li>
                         <a href="#" class="hv_wt">Podcast</a>
@@ -135,7 +140,8 @@
                         <h2>Recently played</h2>
                     </div>
 
-                    <div class="content_flex">
+                    <!-- contenitore row flex contenente i brani -->
+                    <div class="row">
                         <!-- sezione card del brano/album -->
                         <div class="card_song">
                             <!-- contenitore img con layover -->
@@ -143,7 +149,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/metal_lifting.jpg" alt="">
+                                <img src="img/metal_lifting.jpg" alt="album metal">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -160,7 +166,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/stranger.jpeg" alt="">
+                                <img src="img/stranger.jpeg" alt="album stranger">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -177,7 +183,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/aquietplace.jpeg" alt="">
+                                <img src="img/aquietplace.jpeg" alt="album quiteplace">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -194,7 +200,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/split.jpeg" alt="">
+                                <img src="img/split.jpeg" alt="album split">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -211,7 +217,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/cure.jpeg" alt="">
+                                <img src="img/cure.jpeg" alt="album cure">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -228,7 +234,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/sinister.jpeg" alt="">
+                                <img src="img/sinister.jpeg" alt="album sinister">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -250,7 +256,8 @@
                         <div class="subtitle">Più ascolti, più accurati saranno i suggerimenti</div>
                     </div>
                     
-                    <div class="content_flex">
+                    <!-- contenitore row flex contenente i brani -->
+                    <div class="row">
                         <!-- sezione card del brano/album -->
                         <div class=" card_song">
                             <!-- contenitore img con layover -->
@@ -258,7 +265,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/radar.jpeg" alt="">
+                                <img src="img/radar.jpeg" alt="album radar">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -274,7 +281,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/mixdaily.jpeg" alt="">
+                                <img src="img/mixdaily.jpeg" alt="album mixdaily">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -295,7 +302,8 @@
                         <div class="subtitle">Più ascolti, più accurati saranno i suggerimenti</div>
                     </div>
 
-                    <div class="content_flex">
+                    <!-- contenitore row flex contenente i brani -->
+                    <div class="row">
                         <!-- sezione card del brano/album -->
                         <div class=" card_song">
                             <!-- contenitore img con layover -->
@@ -303,7 +311,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/youg.jpeg" alt="">
+                                <img src="img/youg.jpeg" alt="album youg">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -319,7 +327,7 @@
                                 <div class="layover_img">
                                     <i class="far fa-play-circle"></i>
                                 </div>
-                                <img src="img/einaudi.jpeg" alt="">
+                                <img src="img/einaudi.jpeg" alt="album einaudi">
                             </div>
 
                             <!-- testo della card con nome e autore -->
@@ -339,7 +347,7 @@
         <!-- contenitore elementi di sinistra -->
         <div id="foot_left">
             <!-- immagine brano in riproduzione -->
-            <img src="img/sinister.jpeg" alt="">
+            <img src="img/sinister.jpeg" alt="album sinister">
 
             <!-- nome brano in riproduzione -->
             <div id="ft_text">
@@ -347,7 +355,7 @@
                 <div class="name">Brano Nome</div>
             </div>
 
-            <!-- bottoni preferiti e cartella -->
+            <!-- bottoni cuore e cartella -->
             <div id="ft_add">
                 <i class="far fa-heart hv_wt"></i>
                 <i class="far fa-folder hv_wt"></i>
