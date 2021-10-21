@@ -110,6 +110,16 @@ header {
 .top_list .nav_main li {
     width: 100%;
     margin: 5px 0;
+    position: relative;
+}
+
+/* border left active */
+#bl_active {
+    width: 2px;
+    height: 25px;
+    background-color: yellowgreen;
+    position: absolute;
+    left: -15px;
 }
 
 .top_list .nav_main a {
@@ -238,6 +248,18 @@ header {
     text-transform: uppercase;
     white-space: nowrap;
     margin: 10px 20px;
+    position: relative;
+}
+
+/* border bottom active */
+#bb_active {
+    width: 50%;
+    height: 2px;
+    background-color: yellowgreen;
+    margin-top: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #main_content .title {
