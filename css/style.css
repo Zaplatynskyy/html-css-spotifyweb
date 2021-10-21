@@ -434,10 +434,41 @@ footer {
 
 #ft_bottom .play_bar {
     width: 55%;
-    height: 5px;
+    height: 4px;
     background-color: #5a5a5a;
+    cursor: pointer;
     border-radius: 25px;
     margin: 0 10px;
+}
+
+.range_bar {
+    width: 30%;
+    height: 4px;
+    background-color: #c1c1c1;
+    border-radius: 25px;
+    position: relative;
+}
+
+#ft_bottom .play_bar:hover .range_bar,
+#foot_right .sound_bar:hover .range_bar {
+    background-color: greenyellow;
+}
+
+.dot_bar {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#ft_bottom .play_bar:hover .dot_bar,
+#foot_right .sound_bar:hover .dot_bar {
+    display: block;
 }
 
 /* footer di destra */
@@ -448,8 +479,9 @@ footer {
 
 #foot_right .sound_bar {
     width: 90px;
-    height: 5px;
+    height: 4px;
     background-color: #5a5a5a;
+    cursor: pointer;
     border-radius: 25px;
     margin: 0 5px;
 }
