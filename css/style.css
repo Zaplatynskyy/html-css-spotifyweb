@@ -405,9 +405,18 @@ footer {
     align-items: center;
 }
 
+#ft_top i {
+    cursor: pointer;
+}
+
 #ft_top i.fa-play-circle {
     font-size: 30px;
     margin: 0 10px;
+}
+
+#ft_top i.fa-play-circle:hover {
+    font-size: 32px;
+    margin: 0 9px;
 }
 
 /* footer centrale bottom */
@@ -434,6 +443,7 @@ footer {
 /* footer di destra */
 #foot_right i {
     margin: 0 5px;
+    cursor: pointer;
 }
 
 #foot_right .sound_bar {
